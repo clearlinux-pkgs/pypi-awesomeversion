@@ -4,7 +4,7 @@
 #
 Name     : awesomeversion
 Version  : 21.2.3
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/a4/dc/a9f8224b7b02f3076e5a76b0b920a2ec567abb479c6a5b50f2721cf9b8ae/awesomeversion-21.2.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a4/dc/a9f8224b7b02f3076e5a76b0b920a2ec567abb479c6a5b50f2721cf9b8ae/awesomeversion-21.2.3.tar.gz
 Summary  : One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
