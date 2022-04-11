@@ -4,7 +4,7 @@
 #
 Name     : pypi-awesomeversion
 Version  : 22.4.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/6b/b7/192dd8a5ea54e9db5a089167e45e7766b32bc3ec0d8bf5055438f8d93906/awesomeversion-22.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6b/b7/192dd8a5ea54e9db5a089167e45e7766b32bc3ec0d8bf5055438f8d93906/awesomeversion-22.4.0.tar.gz
 Summary  : One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
@@ -60,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649034112
+export SOURCE_DATE_EPOCH=1649714861
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
