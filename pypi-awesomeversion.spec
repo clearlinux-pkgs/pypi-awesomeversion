@@ -4,7 +4,7 @@
 #
 Name     : pypi-awesomeversion
 Version  : 22.6.0
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/60/4f/b8c3b64b9cd369d507769b6b0ad00760e0dde255fdaf870831a033f5c07e/awesomeversion-22.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/60/4f/b8c3b64b9cd369d507769b6b0ad00760e0dde255fdaf870831a033f5c07e/awesomeversion-22.6.0.tar.gz
 Summary  : One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
