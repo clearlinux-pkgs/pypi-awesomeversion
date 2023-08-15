@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-awesomeversion
-Version  : 23.5.0
-Release  : 41
-URL      : https://files.pythonhosted.org/packages/bd/17/5c11393fb101d4f9f722e68c0c02e99d9b26686c1d8e54492a71416beff3/awesomeversion-23.5.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/bd/17/5c11393fb101d4f9f722e68c0c02e99d9b26686c1d8e54492a71416beff3/awesomeversion-23.5.0.tar.gz
+Version  : 23.8.0
+Release  : 42
+URL      : https://files.pythonhosted.org/packages/17/88/ac9bf4af3b815982f82b0705d183bd0559b9643c43d33041ea6469c23bea/awesomeversion-23.8.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/17/88/ac9bf4af3b815982f82b0705d183bd0559b9643c43d33041ea6469c23bea/awesomeversion-23.8.0.tar.gz
 Summary  : One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them.
 Group    : Development/Tools
 License  : MIT
@@ -23,7 +23,7 @@ BuildRequires : pypi(poetry_core)
 %description
 # AwesomeVersion
 [![codecov](https://codecov.io/gh/ludeeus/awesomeversion/branch/main/graph/badge.svg)](https://codecov.io/gh/ludeeus/awesomeversion)
-![python version](https://img.shields.io/badge/Python-3.7=><=3.11-blue.svg)
+![python version](https://img.shields.io/badge/Python-3.8=><=3.11-blue.svg)
 ![dependencies](https://img.shields.io/badge/Dependencies-0-blue.svg)
 [![PyPI](https://img.shields.io/pypi/v/awesomeversion)](https://pypi.org/project/awesomeversion)
 ![Actions](https://github.com/ludeeus/awesomeversion/workflows/Actions/badge.svg?branch=main)
@@ -56,10 +56,10 @@ python3 components for the pypi-awesomeversion package.
 
 
 %prep
-%setup -q -n awesomeversion-23.5.0
-cd %{_builddir}/awesomeversion-23.5.0
+%setup -q -n awesomeversion-23.8.0
+cd %{_builddir}/awesomeversion-23.8.0
 pushd ..
-cp -a awesomeversion-23.5.0 buildavx2
+cp -a awesomeversion-23.8.0 buildavx2
 popd
 
 %build
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684703011
+export SOURCE_DATE_EPOCH=1692058426
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
