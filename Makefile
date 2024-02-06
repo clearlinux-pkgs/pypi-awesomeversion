@@ -1,5 +1,5 @@
 PKG_NAME := pypi-awesomeversion
-URL = https://files.pythonhosted.org/packages/92/68/c904375d830d17f6104dad57b65fbde438354240009b0cd55cad063bd016/awesomeversion-23.11.0.tar.gz
+URL = https://files.pythonhosted.org/packages/a6/9f/fcc3018c04703bac014acc7f7043d8db6929a330757bccbbfbbf6b034867/awesomeversion-24.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
